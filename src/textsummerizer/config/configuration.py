@@ -2,11 +2,15 @@ from textsummerizer.constants import *
 from textsummerizer.utils.common import read_yaml, create_directories
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from textsummerizer.entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig, ModelTrainerConfig
 =======
 from textsummerizer.entity import DataIngestionConfig, DataValidationConfig
 
 >>>>>>> parent of ddf1c49 (data transformation added in ipynb and main.py)
+=======
+from textsummerizer.entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig
+>>>>>>> parent of d815990 (model training done in ipynb and main.py, didnot run due to memory issue)
 =======
 from textsummerizer.entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig
 >>>>>>> parent of d815990 (model training done in ipynb and main.py, didnot run due to memory issue)

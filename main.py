@@ -4,11 +4,14 @@ from textsummerizer.pipeline.stage_02_data_validation import DataValidationTrain
 <<<<<<< HEAD
 from textsummerizer.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
 <<<<<<< HEAD
+<<<<<<< HEAD
 from textsummerizer.pipeline.stage_04_model_trainer import ModelTrainerTrainingPipeline
 =======
 
 
 >>>>>>> parent of ddf1c49 (data transformation added in ipynb and main.py)
+=======
+>>>>>>> parent of d815990 (model training done in ipynb and main.py, didnot run due to memory issue)
 =======
 >>>>>>> parent of d815990 (model training done in ipynb and main.py, didnot run due to memory issue)
 
@@ -47,6 +50,7 @@ except Exception as e:
         logger.exception(e)
         raise e
 <<<<<<< HEAD
+<<<<<<< HEAD
      
      
      
@@ -64,6 +68,8 @@ except Exception as e:
 
 =======
 >>>>>>> parent of ddf1c49 (data transformation added in ipynb and main.py)
+=======
+>>>>>>> parent of d815990 (model training done in ipynb and main.py, didnot run due to memory issue)
 =======
 >>>>>>> parent of d815990 (model training done in ipynb and main.py, didnot run due to memory issue)
     

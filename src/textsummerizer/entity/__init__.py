@@ -22,6 +22,7 @@ class DataTransformationConfig:
     root_dir: Path
     data_path: Path
 <<<<<<< HEAD
+<<<<<<< HEAD
     tokenizer_name: Path
     
     
@@ -42,6 +43,9 @@ class ModelTrainerConfig:
     gradient_accumulation_steps: int
 =======
 >>>>>>> parent of ddf1c49 (data transformation added in ipynb and main.py)
+=======
+    tokenizer_name: Path
+>>>>>>> parent of d815990 (model training done in ipynb and main.py, didnot run due to memory issue)
 =======
     tokenizer_name: Path
 >>>>>>> parent of d815990 (model training done in ipynb and main.py, didnot run due to memory issue)
