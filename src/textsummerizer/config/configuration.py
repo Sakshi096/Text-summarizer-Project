@@ -1,11 +1,15 @@
 from textsummerizer.constants import *
 from textsummerizer.utils.common import read_yaml, create_directories
 <<<<<<< HEAD
+<<<<<<< HEAD
 from textsummerizer.entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig, ModelTrainerConfig
 =======
 from textsummerizer.entity import DataIngestionConfig, DataValidationConfig
 
 >>>>>>> parent of ddf1c49 (data transformation added in ipynb and main.py)
+=======
+from textsummerizer.entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig
+>>>>>>> parent of d815990 (model training done in ipynb and main.py, didnot run due to memory issue)
 
 class ConfigurationManager:
     def __init__(
@@ -62,32 +66,6 @@ class ConfigurationManager:
         )
 
         return data_transformation_config
-    
-
-    def get_model_trainer_config(self) -> ModelTrainerConfig:
-        config = self.config.model_trainer
-        params = self.params.TrainingArguments
-
-        create_directories([config.root_dir])
-
-        model_trainer_config = ModelTrainerConfig(
-            root_dir=config.root_dir,
-            data_path=config.data_path,
-            model_ckpt = config.model_ckpt,
-            num_train_epochs = params.num_train_epochs,
-            warmup_steps = params.warmup_steps,
-            per_device_train_batch_size = params.per_device_train_batch_size,
-            weight_decay = params.weight_decay,
-            logging_steps = params.logging_steps,
-            evaluation_strategy = params.evaluation_strategy,
-            eval_steps = params.evaluation_strategy,
-            save_steps = params.save_steps,
-            gradient_accumulation_steps = params.gradient_accumulation_steps
-        )
-
-        return model_trainer_config
-    
-
     
     
 =======

@@ -24,6 +24,7 @@ data_transformation:
 
 
 
+<<<<<<< HEAD
 model_trainer:
   root_dir: artifacts/model_trainer
   data_path: artifacts/data_transformation/samsum_dataset
@@ -35,3 +36,5 @@ model_trainer:
 
 =======
 >>>>>>> parent of ddf1c49 (data transformation added in ipynb and main.py)
+=======
+>>>>>>> parent of d815990 (model training done in ipynb and main.py, didnot run due to memory issue)
