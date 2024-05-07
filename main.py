@@ -1,8 +1,13 @@
 from textsummerizer.logging  import logger
 from textsummerizer.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from textsummerizer.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
+<<<<<<< HEAD
 from textsummerizer.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
 from textsummerizer.pipeline.stage_04_model_trainer import ModelTrainerTrainingPipeline
+=======
+
+
+>>>>>>> parent of ddf1c49 (data transformation added in ipynb and main.py)
 
 STAGE_NAME = "Data Ingestion stage"
 try:
@@ -25,6 +30,7 @@ try:
 except Exception as e:
         logger.exception(e)
         raise e
+<<<<<<< HEAD
      
      
      
@@ -52,6 +58,6 @@ except Exception as e:
         raise e
 
 
+=======
+>>>>>>> parent of ddf1c49 (data transformation added in ipynb and main.py)
     
-    
- 

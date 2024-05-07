@@ -16,6 +16,7 @@ class DataValidationConfig:
     ALL_REQUIRED_FILES: list
 
     
+<<<<<<< HEAD
 @dataclass(frozen=True)
 class DataTransformationConfig:
     root_dir: Path
@@ -38,3 +39,5 @@ class ModelTrainerConfig:
     eval_steps: int
     save_steps: float
     gradient_accumulation_steps: int
+=======
+>>>>>>> parent of ddf1c49 (data transformation added in ipynb and main.py)

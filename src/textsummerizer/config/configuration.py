@@ -1,6 +1,11 @@
 from textsummerizer.constants import *
 from textsummerizer.utils.common import read_yaml, create_directories
+<<<<<<< HEAD
 from textsummerizer.entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig, ModelTrainerConfig
+=======
+from textsummerizer.entity import DataIngestionConfig, DataValidationConfig
+
+>>>>>>> parent of ddf1c49 (data transformation added in ipynb and main.py)
 
 class ConfigurationManager:
     def __init__(
@@ -44,6 +49,7 @@ class ConfigurationManager:
         return data_validation_config
     
     
+<<<<<<< HEAD
     def get_data_transformation_config(self) -> DataTransformationConfig:
         config = self.config.data_transformation
 
@@ -84,4 +90,6 @@ class ConfigurationManager:
 
     
     
+=======
+>>>>>>> parent of ddf1c49 (data transformation added in ipynb and main.py)
     
