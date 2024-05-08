@@ -16,13 +16,11 @@ class DataValidationConfig:
     ALL_REQUIRED_FILES: list
 
     
-<<<<<<< HEAD
 @dataclass(frozen=True)
 class DataTransformationConfig:
     root_dir: Path
     data_path: Path
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     tokenizer_name: Path
     
     
@@ -41,11 +39,13 @@ class ModelTrainerConfig:
     eval_steps: int
     save_steps: float
     gradient_accumulation_steps: int
-=======
->>>>>>> parent of ddf1c49 (data transformation added in ipynb and main.py)
-=======
-    tokenizer_name: Path
->>>>>>> parent of d815990 (model training done in ipynb and main.py, didnot run due to memory issue)
-=======
-    tokenizer_name: Path
->>>>>>> parent of d815990 (model training done in ipynb and main.py, didnot run due to memory issue)
+    
+    
+
+@dataclass(frozen=True)
+class ModelEvaluationConfig:
+    root_dir: Path
+    data_path: Path
+    model_path: Path
+    tokenizer_path: Path
+    metric_file_name: Path
