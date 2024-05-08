@@ -1,5 +1,5 @@
 from textsummerizer.config.configuration import ConfigurationManager
-from textsummerizer.conponents.model_evaluation import ModelEvaluation
+from textsummerizer.components.model_evaluation import ModelEvaluation
 from textsummerizer.logging import logger
 
 

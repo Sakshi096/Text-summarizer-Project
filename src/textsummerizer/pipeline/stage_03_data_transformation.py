@@ -1,5 +1,5 @@
 from textsummerizer.config.configuration import ConfigurationManager
-from textsummerizer.conponents.data_transformation import DataTransformation
+from textsummerizer.components.data_transformation import DataTransformation
 from textsummerizer.logging import logger
 
 

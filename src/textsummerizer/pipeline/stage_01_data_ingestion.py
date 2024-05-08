@@ -1,5 +1,5 @@
 from textsummerizer.config.configuration import ConfigurationManager
-from textsummerizer.conponents.data_ingestion import DataIngestion
+from textsummerizer.components.data_ingestion import DataIngestion
 from textsummerizer.logging import logger
 
 class DataIngestionTrainingPipeline:

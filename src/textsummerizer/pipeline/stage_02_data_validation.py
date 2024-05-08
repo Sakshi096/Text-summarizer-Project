@@ -1,5 +1,5 @@
 from textsummerizer.config.configuration import ConfigurationManager
-from textsummerizer.conponents.data_validation import DataValiadtion
+from textsummerizer.components.data_validation import DataValiadtion
 from textsummerizer.logging import logger
 
 

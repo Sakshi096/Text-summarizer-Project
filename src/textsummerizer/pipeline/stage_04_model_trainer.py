@@ -1,5 +1,5 @@
 from textsummerizer.config.configuration import ConfigurationManager
-from textsummerizer.conponents.model_trainer import ModelTrainer
+from textsummerizer.components.model_trainer import ModelTrainer
 from textsummerizer.logging import logger
 
 
