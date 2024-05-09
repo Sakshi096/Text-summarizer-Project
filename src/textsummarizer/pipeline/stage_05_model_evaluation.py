@@ -1,6 +1,6 @@
-from textsummerizer.config.configuration import ConfigurationManager
-from textsummerizer.components.model_evaluation import ModelEvaluation
-from textsummerizer.logging import logger
+from textsummarizer.config.configuration import ConfigurationManager
+from textsummarizer.components.model_evaluation import ModelEvaluation
+from textsummarizer.logging import logger
 
 
 

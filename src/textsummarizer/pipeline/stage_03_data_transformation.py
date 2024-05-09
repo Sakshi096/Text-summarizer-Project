@@ -1,6 +1,6 @@
-from textsummerizer.config.configuration import ConfigurationManager
-from textsummerizer.components.data_transformation import DataTransformation
-from textsummerizer.logging import logger
+from textsummarizer.config.configuration import ConfigurationManager
+from textsummarizer.components.data_transformation import DataTransformation
+from textsummarizer.logging import logger
 
 
 class DataTransformationTrainingPipeline:

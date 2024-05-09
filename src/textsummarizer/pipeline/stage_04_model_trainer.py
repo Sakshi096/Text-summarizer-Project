@@ -1,6 +1,6 @@
-from textsummerizer.config.configuration import ConfigurationManager
-from textsummerizer.components.model_trainer import ModelTrainer
-from textsummerizer.logging import logger
+from textsummarizer.config.configuration import ConfigurationManager
+from textsummarizer.components.model_trainer import ModelTrainer
+from textsummarizer.logging import logger
 
 
 class ModelTrainerTrainingPipeline:

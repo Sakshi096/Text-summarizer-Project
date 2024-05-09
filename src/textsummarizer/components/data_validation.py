@@ -1,6 +1,6 @@
 import os
-from textsummerizer.logging import logger
-from textsummerizer.entity import DataValidationConfig
+from textsummarizer.logging import logger
+from textsummarizer.entity import DataValidationConfig
 
 class DataValiadtion:
     def __init__(self, config: DataValidationConfig):

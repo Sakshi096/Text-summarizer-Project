@@ -1,11 +1,11 @@
-from textsummerizer.logging  import logger
-from textsummerizer.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
-from textsummerizer.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
+from textsummarizer.logging  import logger
+from textsummarizer.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
+from textsummarizer.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
 <<<<<<< HEAD
-from textsummerizer.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
+from textsummarizer.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
 <<<<<<< HEAD
 <<<<<<< HEAD
-from textsummerizer.pipeline.stage_04_model_trainer import ModelTrainerTrainingPipeline
+from textsummarizer.pipeline.stage_04_model_trainer import ModelTrainerTrainingPipeline
 =======
 
 
